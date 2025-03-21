@@ -1,0 +1,1 @@
+docker image build %~dp0/%1 -t latest-%1 && docker run --rm -it latest-%1
